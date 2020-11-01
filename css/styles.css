@@ -1,0 +1,87 @@
+body {
+    font-family: "Lato", sans-serif;
+  }
+
+p{
+    font-size: 1rem;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 160px;
+    position: absolute;
+    z-index: 1;
+    /*top: 0;*/
+    Right: 0;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    overflow-x: hidden;
+    padding-top: 5px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #0070A8;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #125893;
+  }
+  
+  .principal {
+    margin-right: 160px; 
+    padding: 0px 10px;
+  }
+
+  #objetivos{
+    margin-top: 5rem;
+    padding: 3rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+
+  }
+
+  #titulo-principal{
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      padding-top: 2rem;
+
+  }
+
+  #page-header {
+    margin: 0 0 20px 0;
+    padding: 0;
+    height: 55px;
+    background: #014D65 url(https://datateca.unad.edu.co/contenidos/publicaciones/Comunicaciones_VIMEP/2020/comoNavegarAula/imagenes/logoUNADMobile-HD.png) no-repeat top 8px left 20px;
+    background-size: 155px 38px;
+}
+
+  @media screen and (max-width: 1440px) and (min-width: 1024px){
+    #page-header {
+        height: 155px;
+        background-size: 100% 155px;
+    }
+  }
+
+  @media screen and (min-width: 769px){
+    #page-header {
+        background: #FFF url(https://datateca.unad.edu.co/contenidos/publicaciones/Comunicaciones_VIMEP/2020/comoNavegarAula/imagenes/logoUNAD-HD.png) no-repeat top center;
+        background-size: 100% 155px;
+        height: 155px;
+        position: relative;
+        box-shadow: 0 -5px 5px -5px #abc;
+    }
+  }
+
+
+  /*
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }*/
