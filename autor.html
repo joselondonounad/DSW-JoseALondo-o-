@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curso de desarrollo de sitios web, conceptos y uso de HTML Básico">
+    <meta name="keywords" content="HTML, CSS, JavaScript, GIT">
+    <meta name="author" content="Jose Londoño">
     <title>Primera actividad Diseño de Sitios Web</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" />
@@ -84,7 +87,6 @@
       <br/>
 
       <h1 id="titulo-principal" class="text-center">CURSO DE DISEÑO DE SITIOS WEB</h1>
-
       <br/>
       <h2 class="text-center">SOBRE EL AUTOR</h2>
 
@@ -102,12 +104,49 @@
               <li>Programa: Ing. de Sistemas</li>
               <li>Codigo: 11811932</li>
               <li>Skype: jalondonore</li>
-              <li>Correo:  jalea-n7@hotmail.com</li>
+              <li>correo institucional: <a href="mailto:jalondonore@unadvirtual.edu.co">jalondonore@unadvirtual.edu.co</a></li>
+              <li>Correo personal: <a href="mailto:jalea-n7@hotmail.com">jalea-n7@hotmail.com</a></li>
           </ul>
+
+          <br/>
+          </div>
+
+          <form action="mailto:jalea-n7@hotmail.com" method="post" enctype="text/plain" name="form1">
+            <div class="form-group">
+            <label for="nombre">Nombre: </label>
+            <input id="nombre" class="form-control" name="nombre" type="text" />
+            <label for="email" >Email: </label>
+            <input id="email" class="form-control" type="email" />
+            
+            <div class="form-group">
+              <label for="opinion">¿Qué te pareció la página, dudas, Sugerencias?</label>
+              <textarea class="form-control" id="opinion" rows="4"></textarea>
+            </div>
+
+            <input name="Submit" type="submit" value="Enviar" />
+          </form>
+          
+          <br/>
+
         </div>
       </div>
-
     </div>
-    
+
 </body>
+
+<footer class="page-footer font-small blue pt-4">
+  <div class="container-fluid text-center text-md-left">
+    <div class="row">
+      <div class="col-md-12 mt-md-0 mt-3">
+        <p class="text-center">Este trabajo hacido elaborado a pedido de la intitucion para el curso de Diseño de Sitios Web, Para mas informacion puede ir al sitio de la institucion : <a target="_blank" href="http://www.unad.edu.co">Universidad Nacional abierta y a Distancia - Unad</a></p>
+      </div>
+      <hr class="clearfix w-100 d-md-none pb-3">
+    </div>
+  </div>
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https:///"> Jose Londoño</a>
+  </div>
+
+</footer>
+
 </html>
